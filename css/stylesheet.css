@@ -1,0 +1,45 @@
+body {
+background-color: #fff;
+margin: 0px;
+padding: 0px;
+}
+header {
+background-color:black;
+color:white;
+text-align:center;
+padding:5px; 
+width:100%;
+}
+section {
+float:center;
+padding-left: 250px;
+padding-right: 250px;
+
+}
+div.social {
+text-align: center;
+}
+div.social a{
+margin:10px;
+}
+h1 a{
+text-decoration: none;
+}
+h1 a:hover{
+font-style: italic;
+}
+h1 a:visited {
+color: darkgreen;
+}
+h4 {
+padding-left: 5px;
+}
+p.projects {
+padding-left: 5px;
+padding-right: -5px;
+}
+div.contact {
+padding-top: 5px;
+padding-bottom: 25px;
+text-align: center;
+}
