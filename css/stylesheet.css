@@ -16,24 +16,26 @@ padding-left: 250px;
 padding-right: 250px;
 }
 div.nav {
-	color: blue;
-	margin-bottom: 10px;
-	text-align: right;
+color: black;
+margin-bottom: 10px;
+margin-top: 5px;
+text-align: right;
+font-weight: bold;
+}
+div.nav a {
+text-decoration: none;
+}
+div.nav a:hover {
+font-style: italic;
+}
+div.nav a:visited {
+color: darkgreen;
 }
 div.social {
 text-align: center;
 }
 div.social a{
 margin:10px;
-}
-h1 a{
-text-decoration: none;
-}
-h1 a:hover{
-font-style: italic;
-}
-h1 a:visited {
-color: darkgreen;
 }
 h4 {
 padding-left: 5px;
