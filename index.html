@@ -11,6 +11,14 @@ Anthony Matsas
 
 </head>
 
+<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="/scripts/github.js" type="text/javascript"></script>
+<script type="text/javascript">
+  $(function() {
+    $("#github-projects").loadRepositories("anthonymatsas");
+  });
+</script>
+
 <body>
 <header>
 <h1>Anthony Matsas</h1>
@@ -21,6 +29,9 @@ Anthony Matsas
 <div class="nav">home | <a href="pages/resume.html"><b><font color="green">resum&egrave</font></b></a></div>
 
 <p><center><font color="orange">Site is currently under construction. Thanks!</font></center></p>
+
+<div id="github-projects"></div>
+
 
 <h1>projects</h1>
 <h4>project 1</h4>
