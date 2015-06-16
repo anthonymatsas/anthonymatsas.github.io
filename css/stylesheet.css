@@ -1,7 +1,18 @@
 body {
+background-image: url("../imgs/bg.png");
 background-color: #fcfcfc;
 margin: 0px;
 padding: 0px;
+}
+a {
+text-decoration: none;
+color: red;
+}
+a:hover {
+font-style: italic;
+}
+a:visited {
+color: darkgreen;
 }
 header {
 background-image: url("../imgs/logo.png");
@@ -39,12 +50,37 @@ text-align: center;
 div.social a{
 margin:10px;
 }
+header a{
+margin:10px;
+}
 h4 {
 padding-left: 5px;
 }
+form.custom {
+background-color: #fcfcfc;
+border-style: solid;
+border-width: 5px;
+border-color: #f1f1f1;
+padding: 20px;
+}
+iframe.custom {
+background-color: #fcfcfc;
+border-style: solid;
+border-width: 5px;
+border-color: #f1f1f1;
+padding: 20px;
+}
 p.projects {
-padding-left: 5px;
-padding-right: -5px;
+background-color: #fcfcfc;
+border-style: solid;
+border-width: 5px;
+border-color: #f1f1f1;
+padding: 20px;
+float: right;
+}
+img.projects {
+float: left;
+margin-right: 10px;
 }
 div.contact {
 padding-top: 5px;
