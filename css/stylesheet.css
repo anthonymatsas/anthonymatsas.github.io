@@ -1,92 +1,49 @@
 body {
-background-image: url("../imgs/bg.png");
-background-color: #fcfcfc;
-margin: 0px;
-padding: 0px;
+        background-image: url("../imgs/bg.png");
+        background-color: #fcfcfc;
+}
+.header {
+	background-image: url("../imgs/header.png");
+	background-color: black;
+        color: white;
+        text-shadow: 2px 2px black;
+	border-bottom: 5px solid #282828;
+}
+.center {
+	text-align: center;
+}
+.top {
+	float: right;
+	color: black;
+}
+.h3_projects {
+	margin: 5px;
+}
+.project_img {
+	float: left;
+	margin: 5px;
+}
+.projects {
+	color: white;
+        background-color: #474747;
+	border-top: 5px solid #282828;
+	border-bottom: 5px solid #282828;
+}
+.aboutme {
+        background-color: #fcfcfc;
+	border-top: 5px solid #f1f1f1;
+	border-bottom: 5px solid #f1f1f1;
 }
 a {
-text-decoration: none;
-color: red;
+	text-decoration: none;
+	color: #fcfcfc;
 }
 a:hover {
-font-style: italic;
+	font-style: italic;
 }
 a:visited {
-color: darkgreen;
+	color: #f1f1f1;
 }
-header {
-background-image: url("../imgs/logo.png");
-background-color:black;
-color:white;
-text-shadow: 2px 2px black;
-text-align:center;
-padding:5px;
-width: auto;
-}
-section {
-float:center;
-padding-left: 250px;
-padding-right: 250px;
-}
-div.nav {
-color: black;
-margin-bottom: 10px;
-margin-top: 5px;
-text-align: left;
-font-weight: bold;
-}
-div.nav a {
-text-decoration: none;
-}
-div.nav a:hover {
-font-style: italic;
-}
-div.nav a:visited {
-color: darkgreen;
-}
-div.social {
-text-align: center;
-}
-div.social a{
-margin:10px;
-}
-header a{
-margin:10px;
-}
-h4 {
-padding-left: 5px;
-}
-form.custom {
-background-color: #fcfcfc;
-border-style: solid;
-border-width: 5px;
-border-color: #f1f1f1;
-padding: 20px;
-}
-iframe.custom {
-background-color: #fcfcfc;
-border-style: solid;
-border-width: 5px;
-border-color: #f1f1f1;
-margin-top: -30px;
-padding: 10px;
-}
-p.projects {
-background-color: #fcfcfc;
-border-style: solid;
-border-width: 5px;
-border-color: #f1f1f1;
-padding: 20px;
-float: right;
-margin-bottom: 0px;
-}
-img.projects {
-float: left;
-margin-right: 10px;
-}
-div.contact {
-padding-top: 5px;
-padding-bottom: 25px;
-margin-top: 20px;
-text-align: center;
+.label {
+	color: white;
 }
