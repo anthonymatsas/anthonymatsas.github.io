@@ -25,7 +25,7 @@ body {
 	margin: 5px;
 }
 .dark {
-	color: white;
+	color: #e0dfdf;
         background-color: #474747;
 	border-top: 5px solid #282828;
 	border-bottom: 5px solid #282828;
@@ -47,4 +47,37 @@ a:visited {
 }
 .label {
 	color: white;
+}
+
+.project {
+	border: 5px solid #000;
+}
+
+@media only screen and (max-width: 1290px) {
+	.design {
+		width: 100%;
+	}
+}
+
+.p_title {
+        text-shadow: 1px 1px black;
+}
+
+.tb {
+	color: #a39c94;
+        text-shadow: 1px 1px black;
+}
+
+.cbw {
+	color: #e70909;
+        text-shadow: 1px 1px black;
+}
+
+.lst {
+	color: #e7cf09;
+        text-shadow: 1px 1px black;
+}
+
+span.r_link {
+	color: #3fdf00;
 }
