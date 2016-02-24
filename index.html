@@ -1,198 +1,105 @@
 <!DOCTYPE html>
+<!--Anthony Matsas-->
+<html>
+	<head>
+		<title>Anthony Matsas</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Point to javascript -->
+		<script src="js/modal.js"></script>	
+		<!-- Link to css -->
+		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+		<link rel="stylesheet" href="css/hint.css">
+		<link rel="stylesheet" href="css/stylesheet.css">
+	</head>
 
-<html lang="en">
-	<title>Anthony Matsas</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="css/stylesheet.css">
-
-	<body>
-		<!-- Navigation -->
-		<nav class="w3-sidenav w3-black w3-card-2 w3-xlarge" style="display:none">
-			<a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-right">&times;</a>
-			<br>
-			<a href="resume_files/AnthonyMatsasResume.pdf#zoom=90" target="blank"><span class="r_link">resume</span></a>		
-			<a href="#projects">projects</a>		
-			<a href="#designs">designs</a>
-			<a href="#contactme">contact</a>		
-			<a href="index.html">archive</a>		
-		</nav>
+	<body class="w3-animate-opacity">
 
 		<!-- Header -->
 		<header class="w3-container header">
-			<span class="w3-opennav w3-xxlarge" onclick="w3_open()">&#9776;</span>
-			<div class="w3-container">
-				<h1 class="w3-jumbo w3-center">Anthony Matsas</h1>
-				<p class="w3-large w3-center">I am a computer science student in Chicago, attending Lewis University.</p>	
-				<br/>
+			<div class="w3-container w3-center">
+				<img src="imgs/me.jpg" alt="me" class="w3-circle header-img">
+				<h1 class="w3-xxlarge w3-lobster">Anthony Matsas</h1>
+				<p class="about">I am a computer science student in Chicago, attending Lewis University.</p>
 			</div>
 		</header>
 
-		
-		<!-- About me -->
-		<div class="w3-row-padding light">
-			<h3  class="w3-center">Welcome!</h3>	
-			<div class="w3-container w3-center">
-				<p>Hello! Just a quick note that this website is still under construction :)</p>
-			</div> 
-			<br>
-			<div class="w3-quarter w3-center">
-				  <div class="w3-card-2 w3-padding-top" style="min-height:120px">
-					  <a href="resume_files/AnthonyMatsasResume.pdf#zoom=90" target="blank"><img src="imgs/resume_black.png" alt="resume"/></a>
-					  <p>Resume</p>
-				  </div>
-			</div>
+		<!-- Social links -->
+		<div class="w3-center w3-container"> 
+			<span class="hint--bottom hint--success hint--rounded" data-hint="Resume"><a href="resume_files/AnthonyMatsasResume.pdf#zoom=90" target="blank"><img class="about-img" src="imgs/resume_black.png" alt="resume"/></a></span>
 
-			<div class="w3-quarter w3-center">
-				  <div class="w3-card-2 w3-padding-top" style="min-height:120px">
-					  <a href="https://github.com/anthonymatsas" target="blank"><img src="imgs/git_black.png" alt="github"/></a>
-					  <p>GitHub</p>
-				  </div>
-			</div>
-
-			<div class="w3-quarter w3-center">
-				  <div class="w3-card-2 w3-padding-top" style="min-height:120px">
-					  <a href="https://twitter.com/tonymatsas" target="blank"><img src="imgs/twitter_black.png" alt="twitter"/></a>
-					  <p>Twitter</p>
-				  </div>
-			</div>
-
-			<div class="w3-quarter w3-center">
-				  <div class="w3-card-2 w3-padding-top" style="min-height:120px">
-					  <a href="https://www.linkedin.com/in/anthony-matsas-310872ba" target="blank"><img src="imgs/linkedin_black.png" alt="linkedin"/></a>
-					  <p>LinkedIn</p>
-				  </div>
-			</div>
+			<span class="hint--bottom hint--rounded" data-hint="GitHub"><a href="https://github.com/anthonymatsas" target="blank"><img class="about-img" src="imgs/git_black.png" alt="github"/></a></span>
+			<span class="hint--bottom hint--rounded" data-hint="Twitter"><a href="https://twitter.com/tonymatsas" target="blank"><img class="about-img" src="imgs/twitter_black.png" alt="twitter"/></a></span>
+		<span class="hint--bottom hint--rounded" data-hint="Linkedin"><a href="https://www.linkedin.com/in/anthony-matsas-310872ba" target="blank"><img class="about-img" src="imgs/linkedin_black.png" alt="linkedin"/></a></span>
 		</div>
 
-		<!-- Projects -->
-		<div class="w3-row-padding dark">
-			<h3 id="projects" class="w3-center p_title">Projects</h3>  
-			<div class="w3-row">
-				<div class="w3-half w3-container">
-					<h5 class="w3-center tb">Thougth Bucket</h5>  
-					<p>Thought Bucket is a small social network I am building with PHP and MySQL. Code and a live demo can be found below :)<br>
-					<b>Link:</b> Offline</p>
-				</div>
-				<div class="w3-half w3-container">
-					<h5 class="w3-center lst">Lost</h5>  
-					<p>Lost is a text based game built with JavaScript. The user is lost on an island and has to find his/her way off of
-				the island by typing commands like: "go north", "go south", "take backpack", "drop weapon"
-				and so on.<br> 
-					<b>Link:</b> Offline</p>
-				</div>
-			</div>
-			<br>
-			<div class="w3-row">
-				<div class="w3-half w3-container">
-					<h5 class="w3-center cbw">Chicago Bulls Watchface</h5>  
-					<p>A watchface app for the original Pebble and Pebble Time (not Pebble Time Round). I got to play around with C and use JavaScript to connect to a weather API, which was very interesting. Pebble owners can download the watchface by clicking the link below!<br>
-					<b>Link:</b> <a href="https://github.com/anthonymatsas/ChicagoBulls-Watchface" target="blank">GitHub</a><br>
-				</div>
-			</div>
-			<br>
+
+		<!-- Menu -->
+		<div class="w3-container w3-center menu">
+			<p class="w3-tiny w3-opacity">Hello! Just a quick note that this website is still under construction.</p>
+			<a class="menu-links w3-large" href="#" onclick="document.getElementById('projects').style.display='block'" alt="Projects">Projects</a>
+			<a class="menu-links w3-large" href="#" alt="Thoughts">Thoughts</a>
+			<a class="menu-links w3-large" href="#" onclick="document.getElementById('about').style.display='block'" alt="About">About</a>
 		</div>
 
-		<!-- Designs -->
-		<div class=" w3-center light">
-			<h3 id="designs">Designs</h3>  
-			<div class="w3-row">
-				<div class="w3-third w3-container">
-					<img class="design" src='imgs/tbproject.png' alt="Thought Bucket" onclick="design1()"/>
-				</div>
-				<div class="w3-third w3-container">
-					<img class="design" src='imgs/amlogo_preview.png' alt="AM logo" onclick="design2()"/>
-				</div>
-				<div class="w3-third w3-container">
-					<img class="design" src='imgs/blok_preview.png' alt="blok" onclick="design3()"/>
-				</div>
-			</div>
-			<p class="w3-small">Click images to enlarge.</p>
-		</div>
-
-		<!-- Contact form -->
-		<div class="w3-container dark">
-		        <h3 id="contactme" class="w3-center">Contact</h3>
-			<div class="w3-row">
-				<div class="w3-col m5">
-				        <p>Feel free to contact me with any comments, concerns and suggestions you may have! Simply fill out the following form and I will get back to you as soon as possible.</p>
-				</div>
-				<div class="w3-col m7">
-					<form class="w3-form">
-						<div class="w3-group">  
-							<label class="w3-label" style="color: white;">Name:</label>
-							<input class="w3-input" style="width:100%;" type="text" required>
+		<!-- Projects modal -->
+		<div id="projects" class="w3-modal">
+			<div class="w3-modal-content w3-animate-top w3-card-8">
+				<header class="w3-container"> 
+					<span onclick="document.getElementById('projects').style.display='none'" class="w3-closebtn">×</span>
+					<h2>Projects</h2>
+				</header>
+				<hr class="modal-fade">
+				<div class="w3-row-padding">
+					<div class="w3-row">
+						<div class="w3-half w3-container">
+							<h5 class="w3-center tb">Thougth Bucket</h5>  
+							<p>Thought Bucket is a small social network I am building with PHP and MySQL. Users can think out loud by posting their most current thoughts. Then other users have the ability to upvote or downvote a thought depending on how they feel about it. Also, you can comment on thoughts that look intersting to you or even better that have crossed your mind as well! <br>
+							<b>Demo:</b> <a href="http://thoughtbucket.netne.net/" target="blank" alt="Thought Bucket Demo Link">Link</a><br>
+							<b>Code:</b> <a href="https://github.com/anthonymatsas/Thought-Bucket" target="blank" alt="Thought Bucket Code">GitHub</a></p>
 						</div>
-						<div class="w3-group">      
-							<label class="w3-label" style="color: white;">Email:</label>
-							<input class="w3-input" style="width:100%;" type="text" required>
+						<div class="w3-half w3-container">
+							<h5 class="w3-center lst">Stranded</h5>  
+							<p>Lost is a text based game built with JavaScript. The user is lost on an island and has to find his/her way off of
+							the island by typing commands like: "go north", "go south", "take backpack", "drop weapon"
+							and so on.<br> 
+							<b>Code:</b> <a href="https://github.com/anthonymatsas/stranded" target="blank">GitHub</a></a><br>
+							<b>Link:</b> <a href="http://www.cs.lewisu.edu/~anthonymatsas/Project2/Project%202/Index_Matsas_Maldonado.html" target="blank">Link</a></a></p>
 						</div>
-						<div class="w3-group">      
-							<label class="w3-label" style="color: white;">Subject:</label>
-							<textarea class="w3-input" style="width:100%;" required></textarea>
-					 	</div>  
-		         
-						<button type="button" class="w3-btn w3-right w3-theme" onclick="wip();">send</button>
-					</form>
+					</div>
+					<br>
+					<div class="w3-row">
+						<div class="w3-half w3-container">
+							<h5 class="w3-center cbw">Chicago Bulls Watchface</h5>  
+							<p>A watchface app for the original Pebble and Pebble Time (not Pebble Time Round). I got to play around with C and use JavaScript to connect to a weather API, which was very interesting. Pebble owners can download the watchface by clicking the link below!<br>
+							<b>Code:</b> <a href="https://github.com/anthonymatsas/ChicagoBulls-Watchface" target="blank">GitHub</a><br>
+							<b>Link:</b> <a href="https://apps.getpebble.com/en_US/application/558f9a0ba0821d8d97000027" target="blank">Pebble Store</a><br></p>
+						</div>
+					</div>
+
 				</div>
-		  </div>
-			<a class="top" href="#top"><i class="material-icons top">local_airport</i></a>
+			</div>
 		</div>
 
+		<!-- About modal -->
+		<div id="about" class="w3-modal">
+			<div class="w3-modal-content w3-animate-top w3-card-8">
+				<header class="w3-container"> 
+					<span onclick="document.getElementById('about').style.display='none'" class="w3-closebtn">×</span>
+					<h2>About</h2>
+				</header>
+				<hr class="modal-fade">
+				<div class="w3-container">
+					<p>Some text..</p>
+					<p>Some text..</p>
+				</div>
+			</div>
+		</div>
 
+		<hr class="fade">
 		<p class="w3-center w3-small">Anthony Matsas &copy; 2016</p>
-		<p class="w3-center" style="font-size: 7px">Last Updated: 1/16/2016</p>
-
-		<div id="m01" class="w3-modal w3-center" onclick="this.style.display='none'">
-			<img class="w3-modal-content design" id="img01" alt="Design full size">
-			<br>
-			<br>
-		</div>
-
-		<script>
-		// Modal styles for desing 1
-		function design1() {
-		  document.getElementById("img01").src = "imgs/thougthbucket.png";
-		  document.getElementById("m01").style.display = "block";
-		  document.getElementById("img01").style.width = "800px";
-		  document.getElementById("img01").style.height = "678px";
-		}	
-
-		// Modal styles for desing 2 
-		function design2() {
-		  document.getElementById("img01").src = "imgs/am_preview.png";
-		  document.getElementById("img01").style.width = "507px";
-		  document.getElementById("img01").style.height = "383px";
-		  document.getElementById("m01").style.display = "block";
-		}	
-
-		// Modal styles for desing 3 
-		function design3() {
-		  document.getElementById("img01").src = "imgs/blok.png";
-		  document.getElementById("img01").style.width = "900px";
-		  document.getElementById("img01").style.height = "700px";
-		  document.getElementById("m01").style.display = "block";
-		}	
-
-		// Open nav bar
-		function w3_open() {
-		    document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
-		}
-
-		// Close nav bar
-		function w3_close() {
-		    document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
-		}
-		
-		// WIP alert box
-		function wip() {
-			alert("Feature under construction..");
-		}
-		</script>
-
+		<p class="w3-center" style="font-size: 7px">Last Updated: 2/23/2016</p>
 	</body>
-
-
 </html>
 

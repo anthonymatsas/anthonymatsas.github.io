@@ -1,56 +1,58 @@
 body {
-        background-image: url("../imgs/bg.png");
-        background-color: #fcfcfc;
-}
-.header {
-	background-image: url("../imgs/header.png");
-	background-color: black;
-        color: white;
-        text-shadow: 2px 2px black;
-	border-bottom: 5px solid #282828;
-}
-.center {
-	text-align: center;
-}
-.top {
-	margin-top: 5px;
-	float: right;
-	color: black;
-}
-.h3_projects {
-	margin: 5px;
-}
-.project_img {
-	float: left;
-	margin: 5px;
-}
-.dark {
-	color: #e0dfdf;
-        background-color: #474747;
-	border-top: 5px solid #282828;
-	border-bottom: 5px solid #282828;
-}
-.light {
-        background-color: #fcfcfc;
-	border-top: 5px solid #f1f1f1;
-	border-bottom: 5px solid #f1f1f1;
-}
-a {
-	text-decoration: none;
-	color: #fcfcfc;
-}
-a:hover {
-	font-style: italic;
-}
-a:visited {
-	color: #f1f1f1;
-}
-.label {
-	color: white;
+	margin: 20px;
+	background-color: #feffff;
 }
 
-.project {
-	border: 5px solid #000;
+a {
+	text-decoration: none;
+}
+
+a:link {
+    color: #4b0082;;
+}
+
+a:visited {
+    color: #4b0082;;
+}
+
+a:hover {
+    color: #666666;
+}
+
+a:active {
+    color: #666666;
+}
+
+hr.fade {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+	margin-bottom: 5px;
+	margin-top: 100px;
+}
+
+hr.modal-fade {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0));
+	margin-bottom: 2px;
+}
+
+.header-img {
+	margin-top: 105px;
+	width: 125px;
+	height: 130px;
+	border: 2px solid white;
+	box-shadow: 1px 2px 1px #000;
+}
+
+.menu {
+	margin-top: 35px;
+}
+
+.menu-links {
+	padding-left: 18px;
+	padding-right: 18px;
 }
 
 @media only screen and (max-width: 1290px) {
@@ -59,25 +61,34 @@ a:visited {
 	}
 }
 
-.p_title {
-        text-shadow: 1px 1px black;
+.w3-lobster {
+	font-family: "Lobster", serif;
+	text-shadow:1px 1px 0 #f1f1f1;
+}
+
+p.about {
+	color: #bfbfbf;
+}
+
+.about-img {
+	height: 32px;
+	width: 32px;
+	margin: 5px;
+}
+
+.w3-quarter {
+    margin: auto;
+    padding: auto;
 }
 
 .tb {
-	color: #a39c94;
-        text-shadow: 1px 1px black;
+	color: #8a8075;
 }
 
 .cbw {
-	color: #e70909;
-        text-shadow: 1px 1px black;
+	color: #ac0606;
 }
 
 .lst {
-	color: #e7cf09;
-        text-shadow: 1px 1px black;
-}
-
-span.r_link {
-	color: #3fdf00;
+	color: #ac9c06;
 }
