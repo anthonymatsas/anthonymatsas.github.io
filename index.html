@@ -6,7 +6,16 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Point to javascript -->
-		<script src="js/modal.js"></script>	
+		<script src="js/modal.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/gravatar/md5.js"></script>
+		<script type="text/javascript" src="js/gravatar/jquery.gravatar.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function()
+		{
+		    $('#gravatar').empty().append($.gravatar('tonymatsas@gmail.com'));
+		});
+		</script>		
 		<!-- Link to css -->
 		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
@@ -19,7 +28,7 @@
 		<!-- Header -->
 		<header class="w3-container header">
 			<div class="w3-container w3-center">
-				<img src="imgs/me.jpg" alt="me" class="w3-circle header-img">
+				<div class="avatar" id="gravatar" class="w3-round w3-center">Loading...</div>
 				<h1 class="w3-xxlarge w3-lobster">Anthony Matsas</h1>
 				<p class="about">I am a computer science student in Chicago, attending Lewis University.</p>
 			</div>
