@@ -8,19 +8,19 @@ a {
 }
 
 a:link {
-    color: #4b0082;;
+    	color: #4b0082;;
 }
 
 a:visited {
-    color: #4b0082;;
+    	color: #4b0082;;
 }
 
 a:hover {
-    color: #666666;
+    	color: #666666;
 }
 
 a:active {
-    color: #666666;
+    	color: #666666;
 }
 
 .avatar {
@@ -42,6 +42,13 @@ hr.modal-fade {
 	margin-bottom: 2px;
 }
 
+.header-img {
+	margin-top: 105px;
+	width: 125px;
+	height: 130px;
+}
+
+>>>>>>> origin/master
 .menu {
 	margin-top: 35px;
 }
