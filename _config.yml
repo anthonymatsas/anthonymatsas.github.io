@@ -10,7 +10,7 @@ title: Anthony Matsas
 email: tonymatsas@gmail.com
 url: "anthonymatsas.com" # the base hostname & protocol for your site
 twitter_username: tonymatsas 
-github_username: anthonymatsas 
+#github_username: anthonymatsas 
 
 # Build settings
 markdown: kramdown
