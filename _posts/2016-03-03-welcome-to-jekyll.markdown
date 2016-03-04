@@ -8,12 +8,13 @@ Welcome to my personal website/portfolio. I just added jekyll to the site becaus
 
 I decided to use Jekyll because it offers a great static solution to blogging and works great with Github pages. Also, it has awesome built in support for code snippets. Here is an example below:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+{% highlight php %}
+function hello($name) {
+	echo "Hello, " . $name;
+}
+
+hello("Tony");
+#prints 'Hello, Tony'.
 {% endhighlight %}
 
 Anyways, thanks for taking a look at my website and reading my first post:) Have an awesome rest of your day!
