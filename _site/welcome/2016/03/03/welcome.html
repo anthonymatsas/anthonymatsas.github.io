@@ -5,7 +5,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>Welcome!</title>
         <link rel="stylesheet" href="/css/main.css" >
 	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">		
@@ -28,33 +28,32 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Welcome!</h1>
+    <p class="post-meta"><time datetime="2016-03-03T12:50:20-06:00" itemprop="datePublished">Mar 3, 2016</time></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Mar 10, 2016</span>
+  <div class="post-content" itemprop="articleBody">
+    <p>Welcome to my personal website/portfolio. I just added jekyll to the site because I want to start blogging. Posts will either be related to current projects I will be working on or random things I want to remble on about. I have attempted many times in the past to maintain some sort of blog and have always ended not posting much, so I am hoping this time I can post a couple times a month.</p>
 
-        <h2>
-          <a class="post-link" href="/smart/mirror/2016/03/10/first-mirror-draft-post.html">DIY Smart Mirror</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Mar 3, 2016</span>
+<p>I decided to use Jekyll because it offers a great static solution to blogging and works great with Github pages. Also, it has awesome built in support for code snippets. Here is an example below:</p>
 
-        <h2>
-          <a class="post-link" href="/welcome/2016/03/03/welcome.html">Welcome!</a>
-        </h2>
-      </li>
-    
-  </ul>
+<figure class="highlight"><pre><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span>
+<span class="k">function</span> <span class="nf">hello</span><span class="p">(</span><span class="nv">$name</span><span class="p">)</span> <span class="p">{</span>
+	<span class="k">echo</span> <span class="s2">"Hello, "</span> <span class="o">.</span> <span class="nv">$name</span><span class="p">;</span>
+<span class="p">}</span>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<span class="nx">hello</span><span class="p">(</span><span class="s2">"Tony"</span><span class="p">);</span>
+<span class="c1">//prints 'Hello, Tony'.
+</span><span class="cp">?&gt;</span></code></pre></figure>
 
-</div>
+<p>Anyways, thanks for taking a look at my website and reading my first post:) Have an awesome rest of your day!</p>
+
+  </div>
+
+</article>
 
       </div>
     </div>
