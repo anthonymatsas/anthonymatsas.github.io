@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anthony Matsas</title>
+    <description></description>
+    <link>anthonymatsas.com/</link>
+    <atom:link href="anthonymatsas.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 29 May 2016 15:15:26 -0500</pubDate>
+    <lastBuildDate>Sun, 29 May 2016 15:15:26 -0500</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Welcome!</title>
+        <description>&lt;p&gt;Welcome to my personal website/portfolio. I just added jekyll to the site because I want to start blogging. Posts will either be related to current projects I will be working on or random things I want to remble on about. I have attempted many times in the past to maintain some sort of blog and have always ended not posting much, so I am hoping this time I can post a couple times a month.&lt;/p&gt;
+
+&lt;p&gt;I decided to use Jekyll because it offers a great static solution to blogging and works great with Github pages. Also, it has awesome built in support for code snippets. Here is an example below:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hello, &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Tony&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//prints &#39;Hello, Tony&#39;.
+&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Anyways, thanks for taking a look at my website and reading my first post:) Have an awesome rest of your day!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 03 Mar 2016 12:50:20 -0600</pubDate>
+        <link>anthonymatsas.com/welcome/2016/03/03/welcome.html</link>
+        <guid isPermaLink="true">anthonymatsas.com/welcome/2016/03/03/welcome.html</guid>
+        
+        
+        <category>welcome</category>
+        
+      </item>
+    
+  </channel>
+</rss>
