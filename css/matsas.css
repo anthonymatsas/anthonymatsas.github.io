@@ -8,19 +8,19 @@ a {
 }
 
 a:link {
-    	color: #4b0082;;
+	color: #4b0082;;
 }
 
 a:visited {
-    	color: #4b0082;;
+	color: #4b0082;;
 }
 
 a:hover {
-    	color: #666666;
+	color: #666666;
 }
 
 a:active {
-    	color: #666666;
+	color: #666666;
 }
 
 .avatar {
@@ -48,7 +48,6 @@ hr.modal-fade {
 	height: 130px;
 }
 
->>>>>>> origin/master
 .menu {
 	margin-top: 35px;
 }
@@ -80,8 +79,8 @@ p.about {
 }
 
 .w3-quarter {
-    margin: auto;
-    padding: auto;
+	margin: auto;
+	padding: auto;
 }
 
 .tb {

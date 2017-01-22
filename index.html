@@ -1,95 +1,92 @@
 <!DOCTYPE html>
 <!--Anthony Matsas-->
 <html>
-	<head>
-		<title>Anthony Matsas</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- Point to javascript -->
-		<script src="js/modal.js"></script>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-		<script type="text/javascript" src="js/gravatar/md5.js"></script>
-		<script type="text/javascript" src="js/gravatar/jquery.gravatar.js"></script>
-		<script type="text/javascript">
-		$(document).ready(function()
-		{
-		    $('#gravatar').empty().append($.gravatar('tonymatsas@gmail.com'));
+ <head>
+  <title>Anthony Matsas</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Javascript -->
+  <script src="js/modal.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/gravatar/md5.js"></script>
+  <script type="text/javascript" src="js/gravatar/jquery.gravatar.js"></script>
+  <script type="text/javascript">
+		$(document).ready(function() {
+			$('#gravatar').empty().append($.gravatar('tonymatsas@gmail.com'));
 		});
-		</script>		
-		<!-- Link to css -->
-		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
-		<link rel="stylesheet" href="css/hint.css">
-		<link rel="stylesheet" href="css/stylesheet.css">
-	</head>
+  </script>
 
-	<body class="w3-animate-opacity">
-		<!-- Header -->
-		<header class="w3-container header">
-			<div class="w3-container w3-center">
-				<div class="avatar" id="gravatar" class="w3-round w3-center">Fetching data...</div>
-				<h1 class="w3-xxlarge w3-lobster">Anthony Matsas</h1>
-				<p class="about">Hello, welcome to my personal website have fun looking around!</p>
-			</div>
-		</header>
+  <!-- Link to css -->
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+  <link rel="stylesheet" href="css/hint.css">
+  <link rel="stylesheet" href="css/matsas.css">
+ </head>
 
-		<!-- Social links -->
-		<div class="w3-center w3-container"> 
-			<span class="hint--bottom hint--rounded" data-hint="Projects"><a href="#" onclick="document.getElementById('projects').style.display='block'" alt="Projects" ><img class="about-img" src="imgs/projects.png" alt="projects"/></a></span>
-			<span class="hint--bottom hint--rounded" data-hint="Thoughts"><a href="#" ><img class="about-img" src="imgs/thoughts.png" alt="thoughts"/></a></span>
-			<span class="hint--bottom hint--rounded" data-hint="GitHub"><a href="https://github.com/anthonymatsas" target="blank"><img class="about-img" src="imgs/git_black.png" alt="github"/></a></span>
-			<span class="hint--bottom hint--rounded" data-hint="Twitter"><a href="https://twitter.com/tonymatsas" target="blank"><img class="about-img" src="imgs/twitter_black.png" alt="twitter"/></a></span>
-			<span class="hint--bottom hint--rounded" data-hint="Linkedin"><a href="https://www.linkedin.com/in/anthony-matsas-310872ba" target="blank"><img class="about-img" src="imgs/linkedin_black.png" alt="linkedin"/></a></span>
-		</div>
+ <body class="w3-animate-opacity">
+  <header class="w3-container header">
+   <div class="w3-container w3-center">
+    <div class="avatar" id="gravatar" class="w3-round w3-center">Fetching data...</div>
+     <h1 class="w3-xxlarge w3-lobster">Anthony Matsas</h1>
+     <p class="about">Hello, welcome to my personal website have fun looking around!</p>
+   </div>
+  </header>
 
-		<!-- Projects modal -->
-		<div id="projects" class="w3-modal">
-			<div class="w3-modal-content w3-animate-top w3-card-8">
-				<header class="w3-container"> 
-					<span onclick="document.getElementById('projects').style.display='none'" class="w3-closebtn">×</span>
-					<h2>Projects</h2>
-				</header>
-				<hr class="modal-fade">
-				<div class="w3-row-padding">
-					<div class="w3-row">
-						<div class="w3-half w3-container">
-							<h5 class="w3-center tb">Thought Bucket</h5>  
-							<p>Thought Bucket is a small social network I am building with PHP and MySQL. Users can think out loud by posting their most current thoughts. Then other users have the ability to upvote or downvote a thought depending on how they feel about it. Also, users can comment on any thoughts! <br>
-							<b>Code:</b> <a href="https://github.com/anthonymatsas/Thought-Bucket" target="blank" alt="Thought Bucket Code">GitHub</a><br>
-							<b>Demo:</b> <a href="http://thoughtbucket.netne.net/" target="blank" alt="Thought Bucket Demo Link">Link</a></p>
-						</div>
-						<div class="w3-half w3-container">
-							<h5 class="w3-center lst">Stranded</h5>  
-							<p>Lost is a text based game built with JavaScript. The user is lost on an island and has to find his/her way off of
-							the island by typing commands like: "go north", "go south", "take backpack", "drop weapon"
-							and so on. The main technologies used for this application are Javascript, HTML5 and CSS3. <br> 
-							<b>Code:</b> <a href="https://github.com/anthonymatsas/stranded" target="blank">GitHub</a></a><br>
-							<b>Link:</b> <a href="http://www.cs.lewisu.edu/~anthonymatsas/Project2/Project%202/Index_Matsas_Maldonado.html" target="blank">Link</a></a></p>
-						</div>
-					</div>
-					<br>
-					<div class="w3-row">
-						<div class="w3-half w3-container">
-							<h5 class="w3-center cbw">Windy City Sports</h5>  
-							<p>Windy City Sports is an Android app that provides historic and live information about all of Chicago's major sports teams. This project is currently under construction.<br>
-							<b>Code:</b> <a href="https://github.com/anthonymatsas/Windy-City-Sports" target="blank">GitHub</a><br>
-							<b>Link:</b> <a href="#" target="blank">Play Store</a><br></p>
-						</div>
-						<div class="w3-half w3-container">
-							<h5 class="w3-center cbw">Chicago Bulls Watchface</h5>  
-							<p>A watchface app for the original Pebble and Pebble Time (not Pebble Time Round). I got to play around with C and use JavaScript to connect to a weather API, which was very interesting. Pebble owners can download the watchface by clicking the link below!<br>
-							<b>Code:</b> <a href="https://github.com/anthonymatsas/ChicagoBulls-Watchface" target="blank">GitHub</a><br>
-							<b>Link:</b> <a href="https://apps.getpebble.com/en_US/application/558f9a0ba0821d8d97000027" target="blank">Pebble Store</a><br></p>
-						</div>
-					</div>
-				</div>
+  <!-- Social links -->
+  <div class="w3-center w3-container"> 
+   <span class="hint--bottom hint--rounded" data-hint="Projects"><a href="#" onclick="document.getElementById('projects').style.display='block'" alt="Projects" ><img class="about-img" src="imgs/projects.png" alt="projects"/></a></span>
+   <span class="hint--bottom hint--rounded" data-hint="Thoughts"><a href="#" ><img class="about-img" src="imgs/thoughts.png" alt="thoughts"/></a></span>
+   <span class="hint--bottom hint--rounded" data-hint="GitHub"><a href="https://github.com/anthonymatsas" target="blank"><img class="about-img" src="imgs/git_black.png" alt="github"/></a></span>
+   <span class="hint--bottom hint--rounded" data-hint="Twitter"><a href="https://twitter.com/tonymatsas" target="blank"><img class="about-img" src="imgs/twitter_black.png" alt="twitter"/></a></span>
+   <span class="hint--bottom hint--rounded" data-hint="Linkedin"><a href="https://www.linkedin.com/in/anthony-matsas-310872ba" target="blank"><img class="about-img" src="imgs/linkedin_black.png" alt="linkedin"/></a></span>
+  </div>
 
-			</div>
-		</div>
+  <!-- Projects modal -->
+  <div id="projects" class="w3-modal">
+   <div class="w3-modal-content w3-animate-top w3-card-8">
+    <header class="w3-container">
+     <span onclick="document.getElementById('projects').style.display='none'" class="w3-closebtn">×</span>
+     <h2>Projects</h2>
+    </header>
+    <hr class="modal-fade">
+    <div class="w3-row-padding">
+     <div class="w3-row">
+      <div class="w3-half w3-container">
+       <h5 class="w3-center tb">Thought Bucket</h5>
+       <p>Thought Bucket is a small social network I am building with PHP and MySQL. Users can think out loud by posting their most current thoughts. Then other users have the ability to upvote or downvote a thought depending on how they feel about it. Also, users can comment on any thoughts! <br>
+       <b>Code:</b> <a href="https://github.com/anthonymatsas/Thought-Bucket" target="blank" alt="Thought Bucket Code">GitHub</a><br>
+       <b>Demo:</b> <a href="http://thoughtbucket.netne.net/" target="blank" alt="Thought Bucket Demo Link">Link</a></p>
+      </div>
+      <div class="w3-half w3-container">
+       <h5 class="w3-center cbw">Windy City Sports</h5>
+       <p>Windy City Sports is an Android app that provides historic and live information about all of Chicago's major sports teams. This project is currently under construction.<br>
+       <b>Code:</b> <a href="https://github.com/anthonymatsas/Windy-City-Sports" target="blank">GitHub</a><br>
+       <b>Link:</b> <a href="#" target="blank">Play Store</a><br></p>
+      </div>
+     </div>
+     <br>
+     <div class="w3-row">
+      <div class="w3-half w3-container">
+       <h5 class="w3-center cbw">Chicago Bulls Watchface</h5>
+       <p>A watchface app for the original Pebble and Pebble Time (not Pebble Time Round). I got to play around with C and use JavaScript to connect to a weather API, which was very interesting. Pebble owners can download the watchface by clicking the link below!<br>
+       <b>Code:</b> <a href="https://github.com/anthonymatsas/ChicagoBulls-Watchface" target="blank">GitHub</a><br>
+       <b>Link:</b> <a href="https://apps.getpebble.com/en_US/application/558f9a0ba0821d8d97000027" target="blank">Pebble Store</a><br></p>
+      </div>
+      <div class="w3-half w3-container">
+       <h5 class="w3-center lst">Archive</h5>
+       <p>All past projects can be found <a href=""><b>here</b></a>.</p>
+      </div>
+     </div>
+    </div>
 
-		<hr class="fade">
-		<p class="w3-center w3-tiny">Anthony Matsas &copy; 2016
-		<p class="w3-center" style="font-size: 6px;">Icons by: http://www.flaticon.com</p>
-	</body>
+   </div>
+  </div>
+
+  <hr class="fade">
+  <p class="w3-center w3-tiny">Anthony Matsas &copy; 2016
+  <p class="w3-center" style="font-size: 6px;">Icons by: http://www.flaticon.com | 
+  <a href="http://matsas.tk" target="blank">login</a></p>
+ </body>
 </html>
 
