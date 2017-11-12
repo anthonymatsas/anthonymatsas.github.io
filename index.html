@@ -7,21 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Javascript -->
-  <script src="js/modal.js"></script>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script
+   src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+   integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+   crossorigin="anonymous">
+  </script>
   <script type="text/javascript" src="js/gravatar/md5.js"></script>
   <script type="text/javascript" src="js/gravatar/jquery.gravatar.js"></script>
-  <script type="text/javascript">
-		$(document).ready(function() {
-			$('#gravatar').empty().append($.gravatar('tonymatsas@gmail.com'));
-		});
-  </script>
+  <script type="text/javascript" src="js/custom.js"></script>
 
   <!-- Link to css -->
   <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
-  <link rel="stylesheet" href="css/hint.css">
-  <link rel="stylesheet" href="css/matsas.css">
+  <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  </head>
 
@@ -36,19 +34,45 @@
 
   <!-- Social links -->
   <div class="w3-center w3-container"> 
-   <span class="hint--bottom hint--rounded" data-hint="Projects"><a href="#" onclick="document.getElementById('projects').style.display='block'" alt="Projects" ><img class="about-img" src="imgs/projects.png" alt="projects"/></a></span>
-   <span class="hint--bottom hint--rounded" data-hint="GitHub"><a href="https://github.com/anthonymatsas" target="blank"><img class="about-img" src="imgs/git_black.png" alt="github"/></a></span>
-   <span class="hint--bottom hint--rounded" data-hint="Twitter"><a href="https://twitter.com/tonymatsas" target="blank"><img class="about-img" src="imgs/twitter_black.png" alt="twitter"/></a></span>
-   <span class="hint--bottom hint--rounded" data-hint="Linkedin"><a href="https://www.linkedin.com/in/anthony-matsas-310872ba" target="blank"><img class="about-img" src="imgs/linkedin_black.png" alt="linkedin"/></a></span>
+   <span>
+    <a href="#" id="projectsLink" alt="Projects" >
+     <img class="about-img" src="imgs/projects.png" alt="projects"/>
+    </a>
+   </span>
+
+   <span>
+    <a href="mailto:amatsas@outlook.com" target="_top">
+     <img class="about-img" src="imgs/email.png" alt="email"/>
+    </a>
+   </span>
+
+   <span>
+    <a href="https://github.com/anthonymatsas" target="blank">
+     <img class="about-img" src="imgs/git_black.png" alt="github"/>
+    </a>
+   </span>
+
+   <span>
+    <a href="https://twitter.com/tonymatsas" target="blank">
+     <img class="about-img" src="imgs/twitter_black.png" alt="twitter"/>
+    </a>
+   </span>
+
+   <span>
+    <a href="https://www.linkedin.com/in/anthony-matsas-310872ba" target="blank">
+     <img class="about-img" src="imgs/linkedin_black.png" alt="linkedin"/>
+    </a>
+   </span>
   </div>
 
   <!-- Projects modal -->
   <div id="projects" class="w3-modal">
    <div class="w3-modal-content w3-animate-top w3-card-8">
     <header class="w3-container">
-     <span onclick="document.getElementById('projects').style.display='none'" class="w3-closebtn">×</span>
+     <span id="closeButton" class="w3-closebtn">×</span>
      <h2>Projects</h2>
     </header>
+
     <div class="w3-row-padding">
      <div class="w3-row">
       <div class="w3-container w3-center">
@@ -62,8 +86,7 @@
 
   <hr class="fade">
   <p class="w3-center w3-tiny">Anthony Matsas &copy; 2017
-  <p class="w3-center" style="font-size: 6px;">Icons by: http://www.flaticon.com | 
-  http://fontawesome.io</p>
+  <p class="w3-center" style="font-size: 6px;">Icons by: http://www.flaticon.com | http://fontawesome.io</p>
  </body>
 </html>
 
