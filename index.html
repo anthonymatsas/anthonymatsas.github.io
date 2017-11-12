@@ -1,69 +1,62 @@
-<!DOCTYPE html>
-<!--Anthony Matsas-->
+<!doctype html>
+
 <html>
  <head>
   <title>Anthony Matsas</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Javascript -->
-  <script src="js/modal.js"></script>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-  <script type="text/javascript" src="js/gravatar/md5.js"></script>
-  <script type="text/javascript" src="js/gravatar/jquery.gravatar.js"></script>
-  <script type="text/javascript">
-		$(document).ready(function() {
-			$('#gravatar').empty().append($.gravatar('tonymatsas@gmail.com'));
-		});
-  </script>
-
-  <!-- Link to css -->
-  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
-  <link rel="stylesheet" href="css/hint.css">
-  <link rel="stylesheet" href="css/matsas.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
  </head>
 
- <body class="w3-animate-opacity">
-  <header class="w3-container header">
-   <div class="w3-container w3-center">
-    <div class="avatar" id="gravatar" class="w3-round w3-center">Fetching data...</div>
-     <h1 class="w3-xxlarge w3-lobster">Anthony Matsas</h1>
-     <p class="about">Hello, welcome to my personal website have fun looking around!</p>
-   </div>
-  </header>
+ <body>
 
-  <!-- Social links -->
-  <div class="w3-center w3-container"> 
-   <span class="hint--bottom hint--rounded" data-hint="Projects"><a href="#" onclick="document.getElementById('projects').style.display='block'" alt="Projects" ><img class="about-img" src="imgs/projects.png" alt="projects"/></a></span>
-   <span class="hint--bottom hint--rounded" data-hint="GitHub"><a href="https://github.com/anthonymatsas" target="blank"><img class="about-img" src="imgs/git_black.png" alt="github"/></a></span>
-   <span class="hint--bottom hint--rounded" data-hint="Twitter"><a href="https://twitter.com/tonymatsas" target="blank"><img class="about-img" src="imgs/twitter_black.png" alt="twitter"/></a></span>
-   <span class="hint--bottom hint--rounded" data-hint="Linkedin"><a href="https://www.linkedin.com/in/anthony-matsas-310872ba" target="blank"><img class="about-img" src="imgs/linkedin_black.png" alt="linkedin"/></a></span>
-  </div>
-
-  <!-- Projects modal -->
-  <div id="projects" class="w3-modal">
-   <div class="w3-modal-content w3-animate-top w3-card-8">
-    <header class="w3-container">
-     <span onclick="document.getElementById('projects').style.display='none'" class="w3-closebtn">×</span>
-     <h2>Projects</h2>
-    </header>
-    <div class="w3-row-padding">
-     <div class="w3-row">
-      <div class="w3-container w3-center">
-       <p><i class="fa fa-exclamation-triangle fa-4x" aria-hidden="true"></i></p>
-       <p>this section is getting a makeover!</p>
-      </div>
-     </div>
+  <div class="main">
+   <h2 class="lobster">Anthony Matsas</h2>
+   <div class="row">
+    <div class="container">
+     <p>Hello, welcome to my personal website have fun looking around!</p>
     </div>
    </div>
-  </div>
 
-  <hr class="fade">
-  <p class="w3-center w3-tiny">Anthony Matsas &copy; 2017
-  <p class="w3-center" style="font-size: 6px;">Icons by: http://www.flaticon.com | 
-  http://fontawesome.io</p>
+   <div class="empty"></div>
+
+   <hr class="fade">
+
+   <div class="row">
+    <h4>Projects</h4>
+    <div class="container center">
+     <p><i class="fa fa-exclamation-triangle fa-4x" aria-hidden="true"></i></p>
+     <p>this section is getting a makeover!</p>
+    </div>
+   </div>
+
+   <div class="empty"></div>
+
+   <hr class="fade">
+
+   <div class="row">
+    <h4>Social</h4>
+    <div class="quarter">
+     <a href="mailto:amatsas@outlook.com" target="_top" class="link button button-ml">Mail</a>
+    </div>
+
+    <div class="quarter">
+     <a href="https://www.linkedin.com/in/anthony-matsas-310872ba" target="blank" class="link button button-tw">LinkedIn</a>
+    </div>
+
+    <div class="quarter">
+     <a href="https://github.com/anthonymatsas" target="blank" class="link button button-gh">GitHub</a>
+    </div>
+
+    <div class="quarter">
+     <a href="https://twitter.com/tonymatsas" target="blank" class="link button button-tw">Twitter</a>
+    </div>
+   </div>
+
+   <div class="container footer">
+    <p class="x-small">Anthony Matsas &copy; 2017
+   </div>
+  </div>
  </body>
 </html>
-

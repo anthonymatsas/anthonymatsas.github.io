@@ -1,1 +1,4 @@
 .sass-cache/
+
+*.swo
+*.swp
