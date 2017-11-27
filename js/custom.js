@@ -1,8 +1,11 @@
 $(document).ready(function() {
-	var $gravatar = $('#gravatar');
-	var $projectsLink = $('#projectsLink');
-	var $projects = $('#projects');
-	var $projectsClose = $('#closeButton');
+	var $gravatar = $('#gravatar'),
+		$projectsLink = $('#projectsLink'),
+		$projects = $('#projects'),
+		$projectsClose = $('#closeButton'),
+		$copyright = $('#copyright');
+
+	setCopyrightYear();
 
 	$gravatar.empty()
 		.append($.gravatar('tonymatsas@gmail.com'));
@@ -18,4 +21,10 @@ $(document).ready(function() {
 
 		$projects.hide();
 	});
+
+	function setCopyrightYear() {
+		let year = new Date().getFullYear();
+
+		$copyright.append(year);
+	}
 });
