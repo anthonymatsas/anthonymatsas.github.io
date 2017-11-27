@@ -30,7 +30,7 @@
 
         var baseUrl = options.secure ? 'https://secure.gravatar.com/avatar/' : 'http://www.gravatar.com/avatar/';
 
-        return $('<img class="w3-circle" src="' + baseUrl +
+        return $('<img class="circle" src="' + baseUrl +
             hex_md5(emailAddress) +
             '.jpg?' +
             (options.size ? 's=' + options.size + '&' : '') +
