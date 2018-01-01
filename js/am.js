@@ -8,7 +8,7 @@ $(document).ready(function() {
 	setCopyrightYear();
 
 	$gravatar.empty()
-		.append($.gravatar('tonymatsas@gmail.com'));
+		.append($.gravatar('tony@anthonymatsas.com'));
 
 	$projectsLink.on('click', function(event) {
 		event.preventDefault();
