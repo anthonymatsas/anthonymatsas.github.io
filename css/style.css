@@ -168,7 +168,7 @@ body {
 	background-color: #000!important;
 }
 
-.button-tw:hover {
+.button-li:hover {
 	color: white;
 	background-color: #1ca1f2!important;
 }
@@ -225,11 +225,6 @@ body {
 .social-gh {
 	color: white;
 	background-color: #000!important;
-}
-
-.social-tw {
-	color: white;
-	background-color: #1ca1f2!important;
 }
 
 .social {
