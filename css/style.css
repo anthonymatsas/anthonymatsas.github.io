@@ -104,6 +104,16 @@ h6 {
 	left: 0;
 }
 
+.chip {
+  color: #fff;
+  background-color: green;
+  display: inline-block;
+  border-radius: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+}
+
 @media (prefers-color-scheme: dark) {
 	:root {
 		--main-bg-color: #121212;
