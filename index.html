@@ -1,31 +1,63 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
  <head>
-  <title>Anthony Matsas</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Senior software developer building resilient web experiences.">
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+  <title>Anthony Matsas</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
 
-  <script type="text/javascript" src="js/am.js"></script>
+  <script defer src="js/am.js"></script>
  </head>
 
- <body>
-  <div class="container">
-   <h2>Anthony Matsas</h2>
-   <hr class="fade" />
-   <p>Hello! 👋 I am a software developer based in Chicago, IL.</p>
-   <p><span class="chip">Currently open to new roles! Contact me below</span></p>
-   <p class="large">
-    <a href="mailto:anthonymatsas@gmail.com"><i class="fa fa-envelope fa-fw"></i></a>
-    <a target="_blank" href="https://github.com/anthonymatsas"><i class="fa fa-github fa-fw"></i></a>
-    <a target="_blank" href="https://www.linkedin.com/in/anthony-matsas-310872ba"><i class="fa fa-linkedin fa-fw"></i></a>
-   </p>
-  </div>
+ <body data-theme="light">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#me">Anthony Matsas</a>
+      <div class="header-actions">
+        <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" aria-pressed="false">
+          <i class="fa fa-moon-o" aria-hidden="true"></i>
+          <span class="sr-only">Toggle color theme</span>
+        </button>
+        <a class="cta-link" href="mailto:anthonymatsas@gmail.com">Say hello</a>
+      </div>
+    </div>
+  </header>
 
-  <div class="container footer">
-   <p id="copyright" class="x-small">Anthony Matsas &copy; </p>
-  </div>
+  <main>
+    <section id="me" class="me container">
+      <div class="me-copy">
+        <p class="title">Senior Software Engineer</p>
+        <h1>I build thoughtful, resilient software.</h1>
+        <p class="lead"><strong>Helping Businesses Build Reliable, Scalable Software, One Project at a Time.</strong> I’m a senior software engineer with 10+ years of experience turning complex ideas into clean, maintainable code. Now I help startups and small teams deliver high-quality web apps, systems, and tools on time and stress-free.</p>
+
+        <span class="status-badge">Available for hire</span>
+
+        <div class="me-actions">
+          <a class="btn primary" href="mailto:anthonymatsas@gmail.com">Email me</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/anthony-matsas-310872ba" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn secondary" href="https://github.com/anthonymatsas" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+
+      <div class="pic">
+        <div class="portrait">
+          <img src="assets/me.png" alt="picture of me">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>am &copy; <span id="copyright"></span></span>
+    </div>
+  </footer>
  </body>
 </html>
