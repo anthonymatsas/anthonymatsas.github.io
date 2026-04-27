@@ -3,70 +3,47 @@
  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Senior software developer building resilient web experiences.">
+  <meta name="description" content="Tony Matsas — software engineer.">
 
-  <title>Anthony Matsas</title>
+  <title>Tony Matsas</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <style>
+   html, body { height: 100%; }
+   body { margin: 0; display: flex; flex-direction: column; line-height: 1.5; }
+   main { flex: 1; max-width: 38em; margin: 2em; }
+   footer { max-width: 38em; margin: 0 2em 2em; font-size: 0.9em; color: #555; }
+   footer hr { border: 0; border-top: 1px solid #ccc; margin-bottom: 1em; }
+  </style>
 
-  <script defer src="js/am.js"></script>
-  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZMJJYRKSKH"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-ZMJJYRKSKH');
+    gtag('js', new Date());
+    gtag('config', 'G-ZMJJYRKSKH');
   </script>
  </head>
 
- <body data-theme="light">
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="logo" href="#me">Anthony Matsas</a>
-      <div class="header-actions">
-        <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" aria-pressed="false">
-          <i class="fa fa-moon-o" aria-hidden="true"></i>
-          <span class="sr-only">Toggle color theme</span>
-        </button>
-        <a class="cta-link" href="mailto:anthonymatsas@gmail.com">Say hello</a>
-      </div>
-    </div>
-  </header>
-
+ <body>
   <main>
-    <section id="me" class="me container">
-      <div class="me-copy">
-        <p class="title">Senior Software Engineer</p>
-        <h1>I build software.</h1>
-        <p class="lead"><strong>Senior engineer, 10+ years.</strong> I ship web apps, backends, and internal tools. Recently that's included LLM features — chatbots, RAG, summarization, agents — alongside the usual product work. I'm comfortable with the messy parts: evals, latency, cost, the things that break in production.</p>
+   <h1>Tony Matsas</h1>
 
-        <span class="status-badge">Available for hire</span>
+   <p>I'm a software engineer. Available for hire.</p>
 
-        <div class="me-actions">
-          <a class="btn primary" href="mailto:anthonymatsas@gmail.com">Email me</a>
-          <a class="btn secondary" href="https://www.linkedin.com/in/anthony-matsas-310872ba" target="_blank" rel="noopener">LinkedIn</a>
-          <a class="btn secondary" href="https://github.com/anthonymatsas" target="_blank" rel="noopener">GitHub</a>
-        </div>
-      </div>
-
-      <div class="pic">
-        <div class="portrait">
-          <img src="assets/me.png" alt="picture of me">
-        </div>
-      </div>
-    </section>
+   <p>
+    <a href="mailto:anthonymatsas@gmail.com">Email</a> |
+    <a href="https://www.linkedin.com/in/anthony-matsas-310872ba">LinkedIn</a> |
+    <a href="https://github.com/anthonymatsas">GitHub</a>
+   </p>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-     <span>am &copy; <span id="copyright"></span> | <a target="_blank" href="https://stuff.amatsas.com">stuff</a></span>
-    </div>
+  <footer>
+   <hr>
+   am &copy; <span id="copyright"></span> | <a href="https://stuff.amatsas.com">stuff</a>
   </footer>
+
+  <script>
+   document.getElementById('copyright').textContent = new Date().getFullYear();
+  </script>
  </body>
 </html>
